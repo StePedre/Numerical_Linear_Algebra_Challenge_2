@@ -29,13 +29,15 @@ int main(int argc, char *argv[])
     MatrixXd V = MatrixXd::Random(4, 4);
     cout << V << endl << endl;
 
+    int k = 2;
+
     cout << "Matrix C" << endl;
-    MatrixXd C = generateCMatrix(U, 2);
+    MatrixXd C = generateCMatrix(U, k);
     cout << C << endl;
     cout << "Nonzero entries of C: " << C.nonZeros() << endl;
 
     cout << "Matrix D" << endl;
-    MatrixXd D = generateDMatrix(S, V, 2);
+    MatrixXd D = generateDMatrix(S, V, k);
     cout << D << endl;
     cout << "Nonzero entries of D: " << D.nonZeros() << endl;
 
