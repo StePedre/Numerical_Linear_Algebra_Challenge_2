@@ -3,7 +3,7 @@
 **Team:** Ettore Cirillo, Angelo Notarnicola, Stefano Pedretti
 
 ## 📌 Overview
-This challenge was developed for the Numerical Linear Algebra course (A.A. 2024/2025). The primary goal is to apply the singular value decomposition (SVD) to image compression and noise reduction.
+This challenge was developed for the Numerical Linear Algebra course (A.Y. 2024/2025). The primary goal is to apply the singular value decomposition (SVD) to image compression and noise reduction.
 
 ## 🛠️ Technologies
 * **Language:** C++.
